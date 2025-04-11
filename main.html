@@ -8,6 +8,27 @@
 
 <body>
 	<!-- the entire body must be written by student -->
+	<input type="text" id="item-name-input" placeholder="Enter item name">
+	<input type="number" id="item-price-input" placeholder="Enter item price">
+	<button onClick="addItem()">Add</button>
+
+	<table border="1">
+		<thead>
+			<tr>
+				<th>Item Name</th>
+				<th>Item Price</th>				
+			</tr>
+		</thead>
+		<tbody id="table-body">
+			<!-- Items will be added here -->
+		</tbody>
+		<tfoot>
+			<tr>
+				<td>Grand Total</td>
+				<td data-ns-test="grandTotal">0</td>
+			</tr>
+		</tfoot>
+	</table>
     <script type="text/javascript" src="./script.js">
 </script>
 
