@@ -20,7 +20,7 @@ function addItem() {
 	tdName.innerText = itemName;
 
 	const tdPrice = document.createElement("td");
-	tdPrice.setAttribute("data-ns-test", "item-name");
+	tdPrice.setAttribute("data-ns-test", "item-price");
 	tdPrice.innerText = itemPrice;
 
 	tr.appendChild(tdName);
